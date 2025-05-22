@@ -1,5 +1,4 @@
-﻿using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -23,7 +22,7 @@ namespace Gameplay
             if (interactInput?.action != null)
                 interactInput.action.started += HandleInteractInput;
         }
-        
+
         private void OnDisable()
         {
             if (interactInput?.action != null)
